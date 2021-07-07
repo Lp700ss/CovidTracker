@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height:100%;
+    }
+}
+
+
+.carousel {
+    height: 100%;
+}

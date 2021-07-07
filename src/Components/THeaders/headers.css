@@ -1,0 +1,101 @@
+#THeaders {
+  width: 100%;
+  height: 60px;
+  background: #0d0620;
+}
+
+#THeaders article {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  color: #fff;
+  opacity: 1;
+  z-index: 1000;
+  position: relative;
+}
+
+#THeaders article .TLogo {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+#THeaders article .TMenu {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TLogo img {
+  width: 62px;
+  height: 23px;
+  vertical-align: baseline;
+}
+
+#THeaders ul {
+  display: flex;
+  list-style: none;
+}
+
+#THeaders ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 17px 20px;
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+#TMenuBlock {
+  display: flex;
+}
+
+.authMenu li a {
+  padding: 17px 10px !important;
+  opacity: 1 !important;
+}
+
+#THeaders li a.active {
+  border-top: 2px solid #7f0dff;
+  opacity: 1;
+}
+
+#THeaders .dropdown {
+  background: #2a2440;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  right: 63px;
+  top: 58px;
+  border-radius: 3px;
+  display: none;
+  z-index: 1;
+}
+#THeaders .dropdown ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+#THeaders .dropdown ul li a {
+  opacity: 1;
+  width: 85%;
+  padding: 14px 20px;
+  display: block;
+  border-bottom: 1px solid #ffffff78;
+  margin: 0px 14px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#THeaders .dropdown ul li:last-child a {
+  border: none;
+}
+
+.arrow-up {
+  border-bottom: 13px solid #2a2440;
+  position: absolute;
+  top: -13px;
+  right: 19px;
+  z-index: 1111;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+}

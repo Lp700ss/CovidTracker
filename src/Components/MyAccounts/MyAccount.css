@@ -1,0 +1,170 @@
+#MyAccountBlock article {
+  display: flex;
+  background-color: #251e35;
+  height: 100vh;
+}
+#MyAccountBlock aside {
+  flex-basis: 20%;
+  background-color: #2a2440;
+  padding: 10px;
+}
+
+#MyAccountBlock main {
+  flex-basis: 80%;
+  padding: 10px;
+  height: 60vh;
+}
+
+#MyAccountBlock aside header {
+  background: #251e35;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+  border-bottom: 5px solid #7f0dff57;
+  margin-bottom: 10px;
+}
+
+#MyAccountBlock aside header img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  /* border: 7px solid #7f0dff57; */
+}
+
+#MyAccountBlock aside header h3 {
+  color: #fff;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #7f0dff;
+}
+
+#MyAccountBlock aside header figure a {
+  position: relative;
+}
+#MyAccountBlock aside header figure a span {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: 13px;
+  background: #7f0dff;
+  padding: 4px;
+  border-radius: 100%;
+  border: 2px solid #5909b3;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_block {
+  width: 100% !important;
+  margin: 0px auto;
+  height: auto;
+}
+
+.profile_block article > div {
+  background: #2c2542;
+  padding: 30px;
+  color: #fff;
+  border-radius: 2px;
+  width: 100% !important;
+}
+
+.profile_block article {
+  width: 95% !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  margin: auto;
+}
+
+.profile_block button {
+  width: auto !important;
+  border-radius: 4px;
+  background: linear-gradient(263deg, #5909b3, #7f0dff);
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  padding: 15px 0;
+  padding: 16px 43px !important;
+  float: right;
+  cursor: pointer;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  width: 95%;
+  height: 10px;
+  position: relative;
+  left: 30px;
+  border-radius: 2px;
+  background-color: #7f0dff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress {
+  background-color: #7f0dff;
+}
+.progressBlock {
+  display: flex;
+  height: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.leftProgress {
+  flex-basis: 98%;
+}
+.rightProgress {
+  flex-basis: 2%;
+}
+
+#MyAccountBlock main li,
+#MyAccountBlock footer li {
+  list-style: none;
+  padding: 10px 5px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ff0dd929;
+  margin: 4px 0;
+}
+
+#MyAccountBlock main li a,
+#MyAccountBlock footer li a {
+  color: #fff;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+#MyAccountBlock footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#MyAccountBlock footer button {
+  width: 100%;
+  border-radius: 4px;
+  background: linear-gradient(263deg, #e74c3c, #ff0d50);
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+
+#myAccountBlock main ul {
+  background: #4b207c1a;
+  padding: 10px;
+  margin: 10px 0;
+  border-top: 2px solid #7f0dff5e;
+}
